@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="metadata.allocine.fr.python" name="AlloCiné" version="1.0.0" provider-name="melmorabity">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0" />
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="script.module.urllib3" version="1.25.6" />
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies" library="addon.py" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <summary lang="en_GB">AlloCiné movie scraper</summary>
+    <summary lang="fr_FR">Collecteur de données cinématographiques AlloCiné</summary>
+    <description lang="en_GB">AlloCiné is a portal providing information on movies in French. This scraper downloads movie information from AlloCiné. Some data not provided by AlloCiné will be also downloaded from The Movie Database.</description>
+    <description lang="fr_FR">AlloCiné est un portail proposant des informations cinématographiques en français. Ce collecteur télécharge les données relatives aux films depuis Allociné. Certaines données non fournies par AlloCiné seront égalements téléchargées depuis The Movie Database.</description>
+    <disclaimer lang="en_GB">This addon is unofficial and not related to AlloCiné</disclaimer>
+    <disclaimer lang="fr_FR">Cette extension n'est pas officielle et n'a aucun lien avec AlloCiné</disclaimer>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <website>https://www.allocine.fr/</website>
+    <source>https://github.com/melmorabity/metadata.allocine.fr.python/</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <news>v1.0.0 (2020-11-02)
+    - Initial version</news>
+  </extension>
+</addon>

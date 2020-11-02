@@ -1,0 +1,50 @@
+# Kodi Media Center language file
+# Addon Name: AlloCiné
+# Addon id: metadata.allocine.fr.python
+# Addon Provider: melmorabity
+msgid ""
+msgstr ""
+"Project-Id-Version: metadata.allocine.fr.python\n"
+"PO-Revision-Date: 2020-11-02 12:00+0200\n"
+"Last-Translator: melmorabity\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#30001"
+msgid "General"
+msgstr "Général"
+
+msgctxt "#30100"
+msgid "Trailer video quality"
+msgstr "Qualité vidéo des bandes-annonces"
+
+msgctxt "#30101"
+msgid "High quality"
+msgstr "Haut débit"
+
+msgctxt "#30102"
+msgid "Standard quality"
+msgstr "Débit standard"
+
+msgctxt "#30103"
+msgid "Medium quality"
+msgstr "Moyen débit"
+
+msgctxt "#30104"
+msgid "Low quality"
+msgstr "Bas débit"
+
+msgctxt "#30200"
+msgid "Retrieve movie data not provided by AlloCiné from the Movie Database"
+msgstr "Télécharger les informations non fournies par AlloCiné depuis the Movie Database"
+
+msgctxt "#30300"
+msgid "Complete artwork with those provided by the Movie Database"
+msgstr "Compléter les illustrations avec celles fournies par the Movie Database"
+
+msgctxt "#30400"
+msgid "Connection error"
+msgstr "Erreur de connexion"

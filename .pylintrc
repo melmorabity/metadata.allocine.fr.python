@@ -1,0 +1,9 @@
+[FORMAT]
+max-line-length = 79
+
+[MESSAGES CONTROL]
+disable = C0114,C0115,C0116,C0330,R0903,W0707
+
+[SIMILARITIES]
+min-similarity-lines = 5
+ignore-imports = yes

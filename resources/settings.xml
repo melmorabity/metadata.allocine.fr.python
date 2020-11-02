@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30001">
+      <setting id="trailer_quality" type="enum" label="30100" lvalues="30101|30102|30103|30104" default="30101" />
+      <setting id="tmdb_data" type="bool" label="30200" default="true" />
+      <setting id="tmdb_artwork" type="bool" label="30300" default="true" />
+    </category>
+</settings>
